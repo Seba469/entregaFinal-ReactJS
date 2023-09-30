@@ -1,0 +1,46 @@
+.productContainer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    justify-items: center;
+
+    .card{
+        border: 0;
+        width: 18rem;
+    }
+
+    .cardImg{
+        width: 18rem;
+        height: 13rem;
+    }
+
+    .cardBody{
+        background-color: #047404;
+        color: #fcfafa;
+        border-bottom-left-radius: .3rem;
+        border-bottom-right-radius: .3rem;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: .25rem;
+        border: 2px solid #fcfafa;
+    }
+
+    .cardBoton{
+        margin-top: 1rem;
+        border: 0;
+        background-color: #fcfafa;
+        color: #047404;
+        padding: .4rem;
+        text-transform: uppercase;
+        border-radius: 2rem;
+        cursor: pointer;
+        border: 2px solid #fcfafa;
+        transition: background-color .2s, color .2s;
+    }
+
+    .cardBoton:hover{
+        background-color: #047404;
+        color: #fcfafa;
+    }
+}
